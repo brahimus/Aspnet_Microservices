@@ -7,12 +7,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{3F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{47F00222-0EFF-45F6-9C84-EEC385143428}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{FAE51E6C-1764-4A7B-8A5F-1473013BB44D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAE51E6C-1764-4A7B-8A5F-1473013BB44D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAE51E6C-1764-4A7B-8A5F-1473013BB44D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAE51E6C-1764-4A7B-8A5F-1473013BB44D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAE51E6C-1764-4A7B-8A5F-1473013BB44D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{47F00222-0EFF-45F6-9C84-EEC385143428} = {3F958B77-FFB7-4D1C-B78C-021F8D8B8FD0}
+		{FAE51E6C-1764-4A7B-8A5F-1473013BB44D} = {47F00222-0EFF-45F6-9C84-EEC385143428}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4D31450D-1503-414D-9281-3E24738ACA01}
